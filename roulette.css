@@ -1,0 +1,163 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.btn {
+  padding: 12px 40px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  margin: 10px 0 0 0;
+  background: #c8354e;
+  color: #fff;
+  -webkit-transition: background 700ms;
+  transition: background 700ms;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #a82c41;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  background: url("https://i.stack.imgur.com/pRumE.png") no-repeat top center;
+  background-size: cover;
+  position: relative;
+}
+
+.main .loginContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 600px;
+  background: rgba(27, 13, 104, 0.18);
+  min-height: 100vh;
+  padding: 0 0 0 70px;
+}
+
+.main .loginContainer h2 {
+  margin: 0 0 14px 0;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: 1px;
+  color: rgba(27, 13, 104, 0.89);
+  font-weight: 600;
+}
+
+.main .loginContainer .row {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 0 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .loginContainer .row i {
+  color: #fff;
+}
+
+.main .loginContainer .row.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .loginContainer .row.login .btn {
+  width: 100%;
+  padding: 16px 0;
+  margin: 6px 0;
+  border-radius: 50px;
+}
+
+.main .loginContainer .row p {
+  margin: 6px 0;
+  color: #fff;
+  font-weight: 600;
+}
+
+.main .loginContainer .row input {
+  width: 90%;
+  border: none;
+  outline: none;
+  padding: 10px 4px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  background: transparent;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.main .loginContainer .row input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.main .loginContainer .row input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.main .loginContainer .row input::-ms-input-placeholder {
+  color: #fff;
+}
+
+.main .loginContainer .row input::placeholder {
+  color: #fff;
+}
+
+.main .loginContainer .signupPage {
+  width: 100%;
+  max-width: 300px;
+}
+
+.main .loginContainer .signupPage .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .loginContainer .signupPage .row:last-of-type {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.main .loginContainer .signupPage .row input {
+  width: 90%;
+  margin: 6px 0;
+}
+/*# sourceMappingURL=roulette.css.map */
